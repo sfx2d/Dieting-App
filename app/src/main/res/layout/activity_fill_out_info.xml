@@ -8,24 +8,34 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textAlignment="center"
         android:text="Fill out the information below"
         android:textSize="40sp"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Weight"
+        android:hint="Enter Weight"
         android:textSize="25sp"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Height"
+        android:hint="Enter Height"
         android:textSize="25sp"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Age"
+        android:hint="Enter Age"
         android:textSize="25sp"/>
-
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Sex"
+        android:textSize="25sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:hint="Enter Weight Goal"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -38,11 +48,5 @@
         android:textSize="25sp"
         android:text="Go back"
         android:id="@+id/backBTN"/>
-
-
-
-
-
-
 
 </LinearLayout>

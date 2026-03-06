@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DietingApp">
         <activity
+            android:name=".additionalInformation"
+            android:exported="false" />
+        <activity
             android:name=".FillOutInfoActivity"
             android:exported="false" />
         <activity

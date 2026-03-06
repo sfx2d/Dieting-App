@@ -14,7 +14,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Backround"
+        android:text="Backround Color"
         android:textSize="25sp"
         android:id="@+id/backroundButton"/>
     <Button

@@ -11,31 +11,31 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class FillOutInfoActivity extends AppCompatActivity {
-    Button nextBTN, backBTN;
+public class additionalInformation extends AppCompatActivity {
+    Button goBack, nextAgainBTN;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_fill_out_info);
-        nextBTN = findViewById(R.id.nextBTN);
-        backBTN = findViewById(R.id.backBTN);
+        setContentView(R.layout.activity_additional_information);
+        goBack = findViewById(R.id.goBack);
+        nextAgainBTN = findViewById(R.id.nextAgainBTN);
 
-        nextBTN.setOnClickListener(new View.OnClickListener() {
+        goBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent nextIntent = new Intent(FillOutInfoActivity.this, additionalInformation.class);
+                Intent moreInfoIntent = new Intent(additionalInformation.this, FillOutInfoActivity.class);
 
-                startActivity(nextIntent);
+                startActivity(moreInfoIntent);
+
             }
         });
-        backBTN.setOnClickListener(new View.OnClickListener() {
+        nextAgainBTN.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent goBackIntent = new Intent(FillOutInfoActivity.this, MainActivity.class);
 
-                startActivity(goBackIntent);
             }
         });
+
     }
 }
