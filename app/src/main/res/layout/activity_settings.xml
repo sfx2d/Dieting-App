@@ -6,6 +6,36 @@
     android:gravity="center"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:textSize="40sp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Backround"
+        android:textSize="25sp"
+        android:id="@+id/backroundButton"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Font"
+        android:textSize="25sp"
+        android:id="@+id/fontButton"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Language"
+        android:textSize="25sp"
+        android:id="@+id/languageButton"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To Main Menu"
+        android:textSize="25sp"
+        android:id="@+id/settingsMainMenuButton"/>
+
 
 
 
