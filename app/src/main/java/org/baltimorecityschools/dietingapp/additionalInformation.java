@@ -33,7 +33,9 @@ public class additionalInformation extends AppCompatActivity {
         nextAgainBTN.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Intent goToMainPage = new Intent(additionalInformation.this, dietSearch.class);
 
+                startActivity(goToMainPage);
             }
         });
 
