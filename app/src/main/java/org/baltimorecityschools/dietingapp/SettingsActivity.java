@@ -9,13 +9,13 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class SettingsActivity extends AppCompatActivity {
-    Button backroundButton, fontButton, languageButton, settingsMainMenuButton;
+    Button fontButton, languageButton, settingsMainMenuButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_settings);
-        backroundButton = findViewById(R.id.backroundButton);
+
         fontButton = findViewById(R.id.fontButton);
         languageButton = findViewById(R.id.languageButton);
         settingsMainMenuButton = findViewById(R.id.settingsMainMenuButton);
