@@ -24,6 +24,28 @@ public class backroundColorChange extends AppCompatActivity {
         blueButton = findViewById(R.id.blueButton);
         settingsReturnBTN = findViewById(R.id.settingsReturnBTN);
 
+
+        redButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+
+        greenButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+
+        blueButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+
         settingsReturnBTN.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
