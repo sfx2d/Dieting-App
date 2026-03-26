@@ -1,48 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
-    android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_width="match_parent"
     android:orientation="vertical"
     android:gravity="center"
     xmlns:android="http://schemas.android.com/apk/res/android">
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Settings"
-        android:gravity="center"
-        android:textSize="40sp"/>
-
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Backround Color"
+        android:text="Red"
         android:textSize="25sp"
-        android:id="@+id/bgColorButton"/>
-
-
+        android:id="@+id/redButton"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Font"
+        android:text="Green"
         android:textSize="25sp"
-        android:id="@+id/fontButton"/>
+        android:id="@+id/greenButton"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Language"
+        android:text="Blue"
         android:textSize="25sp"
-        android:id="@+id/languageButton"/>
+        android:id="@+id/blueButton"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="To Main Menu"
+        android:text="Back to Settings"
         android:textSize="25sp"
-        android:id="@+id/settingsMainMenuButton"/>
-
-
-
-
+        android:id="@+id/settingsReturnBTN"/>
 
 
 </LinearLayout>
