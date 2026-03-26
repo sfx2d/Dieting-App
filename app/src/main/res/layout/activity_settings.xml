@@ -12,12 +12,22 @@
         android:text="Settings"
         android:gravity="center"
         android:textSize="40sp"/>
-    <Button
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Backround Color: "
+        android:gravity="center"
+        android:textSize="25sp"/>
+
+    <Spinner
+        android:id="@+id/colorsSpinner"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Backround Color"
-        android:textSize="25sp"
-        android:id="@+id/backroundButton"/>
+
+        android:gravity="center"
+        android:minHeight="48dp" />
+
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

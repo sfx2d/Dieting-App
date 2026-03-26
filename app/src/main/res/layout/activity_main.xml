@@ -20,9 +20,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="Start"
+            android:text="Register"
             android:textSize="25sp"
-            android:id="@+id/startButton"/>
+            android:id="@+id/registerButton"/>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
