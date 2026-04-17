@@ -6,20 +6,20 @@ public class DietList {
     public String recipeName;
     public double recipeCost;
     public int calorieCount;
-    public ArrayList<String>dietRecipeIngredients;
+    public ArrayList<String>dietFood;
 
     public DietList(){
         recipeName = "";
         recipeCost = 0.00;
         calorieCount = 0;
-        dietRecipeIngredients = new ArrayList<String>();
+        dietFood = new ArrayList<String>();
     }
 
     public DietList(String recipeName, double recipeCost, int calorieCount, ArrayList<String> dietRecipeIngredients) {
         this.recipeName = recipeName;
         this.recipeCost = recipeCost;
         this.calorieCount = calorieCount;
-        this.dietRecipeIngredients = dietRecipeIngredients;
+        this.dietFood = dietRecipeIngredients;
     }
 
     public String getRecipeName() {
@@ -47,10 +47,20 @@ public class DietList {
     }
 
     public ArrayList<String> getDietRecipeIngredients() {
-        return dietRecipeIngredients;
+        return dietFood;
     }
 
     public void setDietRecipeIngredients(ArrayList<String> dietRecipeIngredients) {
-        this.dietRecipeIngredients = dietRecipeIngredients;
+        this.dietFood = dietRecipeIngredients;
+    }
+
+    @Override
+    public String toString() {
+        return "DietList " +
+                "recipeName='" + recipeName + "\n" +
+                ", recipeCost=" + recipeCost + "\n" +
+                ", calorieCount=" + calorieCount + "\n" +
+                ", dietRecipeIngredients=" + dietFood + "\n" +
+                ' ';
     }
 }
