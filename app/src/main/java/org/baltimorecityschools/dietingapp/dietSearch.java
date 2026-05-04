@@ -26,7 +26,7 @@ public class dietSearch extends AppCompatActivity {
         ArrayList<String>recipeIngredients = new ArrayList<>();
         recipeIngredients.add("2 eggs, 1/2 cup nonfat or 1% milk, 1 teaspoon cinnamon, 2 teaspoons sugar, 1/2 teaspoon vanilla, 1/4 cup unsweetened applesauce, 6 slices whole-wheat bread");
         DietList newDietList = new DietList("AppleSauce French Toast ", 5.32, 140, recipeIngredients);
-        testText.setText("" + newDietList.getRecipeName() + "\n" + newDietList.getRecipeCost() + "\n" + newDietList.calorieCount + "\n" + newDietList.getDietRecipeIngredients());
+        testText.setText("" + newDietList.getRecipeName() + "\n" + "$" + newDietList.getRecipeCost() + "\n" + "Calories: " + newDietList.calorieCount + "\n" + "Ingredient Info: " + newDietList.getDietRecipeIngredients());
 
 
 
