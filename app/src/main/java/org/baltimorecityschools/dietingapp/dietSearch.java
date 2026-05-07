@@ -1,6 +1,8 @@
 package org.baltimorecityschools.dietingapp;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -10,16 +12,36 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import com.google.android.material.card.MaterialCardView;
+
 import java.util.ArrayList;
 
 public class dietSearch extends AppCompatActivity {
     TextView testText;
+    MaterialCardView appleSauceFrenchToastMCV;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_diet_search);
+        appleSauceFrenchToastMCV = findViewById(R.id.appleSauceFrenchToastMCV);
+
+
+
+
+
+
+        appleSauceFrenchToastMCV.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent reusableInfoDisplay = new Intent(dietSearch.this, ReusableInfoDisplay.class);
+
+                startActivity(reusableInfoDisplay);
+
+
+            }
+        });
 
         //testText = findViewById(R.id.testText);
 
