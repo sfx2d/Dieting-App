@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent infoIntent = new Intent(MainActivity.this, FillOutInfoActivity.class);
 
-                startActivity(infoIntent);
+                startActivity(infoIntent)   ;
 
             }
         });
