@@ -40,17 +40,17 @@ public class dietSearch extends AppCompatActivity {
         //Below each comment are what foods' ingredients it is referring to.
 
         //AppleSauce French Toast ingredients
-        recipeIngredients.add("2 eggs, 1/2 cup nonfat or 1% milk, 1 teaspoon cinnamon, 2 teaspoons sugar, 1/2 teaspoon vanilla, 1/4 cup unsweetened applesauce, 6 slices whole-wheat bread");
+        recipeIngredients.add(0, "2 eggs, 1/2 cup nonfat or 1% milk, 1 teaspoon cinnamon, 2 teaspoons sugar, 1/2 teaspoon vanilla, 1/4 cup unsweetened applesauce, 6 slices whole-wheat bread");
         //Any Berry Sauce ingredients
-        recipeIngredients.add("1/4 cup cold water, 1 Tablespoon cornstarch, 1/3 cup sugar 4 cups berries, fresh or frozen (blackberries, raspberries, blueberries, sliced strawberries, or a mixture)");
+        recipeIngredients.add(1,"1/4 cup cold water, 1 Tablespoon cornstarch, 1/3 cup sugar 4 cups berries, fresh or frozen (blackberries, raspberries, blueberries, sliced strawberries, or a mixture)");
         //BreakFast Burritos ingredients
-        recipeIngredients.add("4 eggs, 1/4 cup nonfat or 1% milk, salt, pepper and chili powder to taste, 1 teaspoon vegetable oil, 4 (10-inch) flour tortillas, 1 cup fat-free refried beans, 1/2 cup (2 ounces) grated cheddar cheese, 1 tomato, chopped");
+        recipeIngredients.add(2,"4 eggs, 1/4 cup nonfat or 1% milk, salt, pepper and chili powder to taste, 1 teaspoon vegetable oil, 4 (10-inch) flour tortillas, 1 cup fat-free refried beans, 1/2 cup (2 ounces) grated cheddar cheese, 1 tomato, chopped");
         //Oven Baked Salmon ingredients
-        recipeIngredients.add("1 Tablespoon vegetable oil, 12 to 16 ounces fresh or thawed salmon, cut into 3 or 4 pieces of similar size, 1/4 teaspoon salt, 1/4 teaspoon pepper");
+        recipeIngredients.add(3,"1 Tablespoon vegetable oil, 12 to 16 ounces fresh or thawed salmon, cut into 3 or 4 pieces of similar size, 1/4 teaspoon salt, 1/4 teaspoon pepper");
         //Baked Meat Balls ingredients
-        recipeIngredients.add("1/2 cup finely grated carrot, 1 egg, 1/2 cup oats (old fashioned or quick-cooking), 1/4 cup skim or 1% milk, 1/2 teaspoon salt, 1/2 teaspoon pepper, 1/2 teaspoon garlic powder, 1/2 teaspoon onion powder, 1/2 teaspoon oregano, 1 pound lean ground meat (any type, 15% fat or less)");
+        recipeIngredients.add(4,"1/2 cup finely grated carrot, 1 egg, 1/2 cup oats (old fashioned or quick-cooking), 1/4 cup skim or 1% milk, 1/2 teaspoon salt, 1/2 teaspoon pepper, 1/2 teaspoon garlic powder, 1/2 teaspoon onion powder, 1/2 teaspoon oregano, 1 pound lean ground meat (any type, 15% fat or less)");
         //Cheesy Beef Pasta ingredients
-        recipeIngredients.add("/2 pound lean ground beef (15% fat)\n" +
+        recipeIngredients.add(5,"/2 pound lean ground beef (15% fat)\n" +
                 "1 onion, diced (about 1 cup)\n" +
                 "2 cloves garlic, minced, or 1/2 teaspoon garlic powder\n" +
                 "1 small zucchini, chopped (about 1 1/2 cups)\n" +
@@ -62,7 +62,7 @@ public class dietSearch extends AppCompatActivity {
                 "1/2 cup (2 ounces) shredded cheddar cheese\n" +
                 "1 1/2 cups (6 ounces) shredded mozzarella cheese");
         //Fiesta Barley Salad ingredients
-        recipeIngredients.add("1 cup pearl barley*\n" +
+        recipeIngredients.add(6,"1 cup pearl barley*\n" +
                 "3 cups water\n" +
                 "1/4 cup raisins, or other dried fruit\n" +
                 "1 cup frozen peas, or other vegetables (fresh, frozen or canned and drained)\n" +
@@ -72,7 +72,7 @@ public class dietSearch extends AppCompatActivity {
                 "1 Tablespoon vinegar (rice vinegar or any others)\n" +
                 "3 Tablespoons vegetable oil");
         //Lentil Taco Filling
-        recipeIngredients.add("1/2 cup chopped onion\n" +
+        recipeIngredients.add(7,"1/2 cup chopped onion\n" +
                 "1/2 cup chopped bell pepper (any color)\n" +
                 "1/4 teaspoon garlic powder or 1 clove garlic, minced\n" +
                 "1 teaspoon oil\n" +
