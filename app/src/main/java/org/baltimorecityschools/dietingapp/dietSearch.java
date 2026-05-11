@@ -113,6 +113,13 @@ public class dietSearch extends AppCompatActivity {
         breakFastBurritosMCV.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Intent reusableInfoDisplay = new Intent(dietSearch.this, ReusableInfoDisplay.class);
+                reusableInfoDisplay.putExtra("TEXT_DATA", recipeIngredients.get(2));
+                DietList newDietList = new DietList("Breakfast Burritos ", 5.67, 210, recipeIngredients);
+                String recipe = ("" + newDietList.getRecipeName() + "\n" + "$" + newDietList.getRecipeCost() + "\n" + "Calories: " + newDietList.calorieCount + "\n" + "Ingredient Info: " + newDietList.getDietRecipeIngredients());
+                reusableInfoDisplay.putExtra("TEXT", recipe);
+
+                startActivity(reusableInfoDisplay);
 
             }
         });
@@ -120,6 +127,13 @@ public class dietSearch extends AppCompatActivity {
         ovenBakedSalmonMCV.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Intent reusableInfoDisplay = new Intent(dietSearch.this, ReusableInfoDisplay.class);
+                reusableInfoDisplay.putExtra("TEXT_DATA", recipeIngredients.get(3));
+                DietList newDietList = new DietList("Oven Baked Salmon ", 4.56, 160, recipeIngredients);
+                String recipe = ("" + newDietList.getRecipeName() + "\n" + "$" + newDietList.getRecipeCost() + "\n" + "Calories: " + newDietList.calorieCount + "\n" + "Ingredient Info: " + newDietList.getDietRecipeIngredients());
+                reusableInfoDisplay.putExtra("TEXT", recipe);
+
+                startActivity(reusableInfoDisplay);
 
             }
         });
@@ -127,6 +141,13 @@ public class dietSearch extends AppCompatActivity {
         bakedMeatBallsMCV.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Intent reusableInfoDisplay = new Intent(dietSearch.this, ReusableInfoDisplay.class);
+                reusableInfoDisplay.putExtra("TEXT_DATA", recipeIngredients.get(4));
+                DietList newDietList = new DietList("Baked Meatballs ", 4.30, 150, recipeIngredients);
+                String recipe = ("" + newDietList.getRecipeName() + "\n" + "$" + newDietList.getRecipeCost() + "\n" + "Calories: " + newDietList.calorieCount + "\n" + "Ingredient Info: " + newDietList.getDietRecipeIngredients());
+                reusableInfoDisplay.putExtra("TEXT", recipe);
+
+                startActivity(reusableInfoDisplay);
 
             }
         });
@@ -134,6 +155,13 @@ public class dietSearch extends AppCompatActivity {
         cheesyBeefPastaMCV.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Intent reusableInfoDisplay = new Intent(dietSearch.this, ReusableInfoDisplay.class);
+                reusableInfoDisplay.putExtra("TEXT_DATA", recipeIngredients.get(5));
+                DietList newDietList = new DietList("Cheesy Beef Pasta ", 4.99, 380, recipeIngredients);
+                String recipe = ("" + newDietList.getRecipeName() + "\n" + "$" + newDietList.getRecipeCost() + "\n" + "Calories: " + newDietList.calorieCount + "\n" + "Ingredient Info: " + newDietList.getDietRecipeIngredients());
+                reusableInfoDisplay.putExtra("TEXT", recipe);
+
+                startActivity(reusableInfoDisplay);
 
             }
         });
@@ -141,6 +169,13 @@ public class dietSearch extends AppCompatActivity {
         fiestaBarleySaladMCV.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Intent reusableInfoDisplay = new Intent(dietSearch.this, ReusableInfoDisplay.class);
+                reusableInfoDisplay.putExtra("TEXT_DATA", recipeIngredients.get(6));
+                DietList newDietList = new DietList("Fiesta Barley Salad ", 5.11, 150, recipeIngredients);
+                String recipe = ("" + newDietList.getRecipeName() + "\n" + "$" + newDietList.getRecipeCost() + "\n" + "Calories: " + newDietList.calorieCount + "\n" + "Ingredient Info: " + newDietList.getDietRecipeIngredients());
+                reusableInfoDisplay.putExtra("TEXT", recipe);
+
+                startActivity(reusableInfoDisplay);
 
             }
         });
